@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - Future of Informatics</title>
+</head>
+<body style="background-color: lightblue;">
+    <h1>Register - Future of Informatics</h1>
+    <form method="GET">
+        <label for="firstname">First Name:</label>
+        <input type="text" id="firstname" name="firstname" required><br><br>
+        
+        <label for="lastname">Last Name:</label>
+        <input type="text" id="lastname" name="lastname" required><br><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" minlength="5" required><br><br>
+        
+        <label for="birthday">Birthday:</label>
+        <input type="date" id="birthday" name="birthday" required><br><br>
+        
+        <label>Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="Male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label><br>
+        <input type="radio" id="other" name="gender" value="Other">
+        <label for="other">Other</label><br><br>
+        
+        <label>Preferred Programming Language:</label><br>
+        <input type="radio" id="python" name="language" value="Python">
+        <label for="python">Python</label><br>
+        <input type="radio" id="cpp" name="language" value="C++">
+        <label for="cpp">C++</label><br>
+        <input type="radio" id="javascript" name="language" value="JavaScript">
+        <label for="javascript">JavaScript</label><br><br>
+        
+        <input type="submit" value="Register!">
+        <input type="reset">
+    </form>
+</body>
+</html>
